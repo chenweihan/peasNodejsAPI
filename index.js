@@ -26,7 +26,7 @@ global.ENV = {
 
 /**
  * 启动函数
-var peasNA = require('peasNodeAPI'),
+var peasNA = require('peasNA'),
     app = peasNA();
 */
 
