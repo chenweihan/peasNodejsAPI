@@ -8,10 +8,25 @@
  * @description : 启动文件
  */
 
-var http = require('http');
-    http.createServer(function (req, res) {
-      res.writeHead(200, {'Content-Type': 'text/plain'});
-      res.end('test11i22 Hello World\n');
-    }).listen(1337, '127.0.0.1');
 
-console.log('Server running at http://127.0.0.1:1337/');
+/**
+ * 配置全局参数  借鉴了express中的一些设计
+ * 支持跨域jsonp
+ * 支持rest模式
+ * 支持验证
+ *
+ */
+
+global.ENV = {
+    baseDir  : __dirname,
+    frameDir : __dirname+'/lib/',
+    projectDir : __dirname+'/project/',
+    domain : '127.0.0.1'
+}
+
+/**
+ * 启动函数
+var peasNA = require('peasNodeAPI'),
+    app = peasNA();
+*/
+
