@@ -1,11 +1,11 @@
 /**
  * Created with Vim7.3 Ubuntu10.04
- * @fileOverview : 测试文件 
+ * @fileOverview : 启动文件  
  * @author : Chen weihan <csq-3@163.com>
  * @since : 2014年02月27日 星期四 11时20分42秒
  * @filename : index.js
  * @version : 
- * @description : api 入口文件
+ * @description : 启动文件
  */
 
 var http = require('http');
