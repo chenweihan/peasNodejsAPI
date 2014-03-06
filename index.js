@@ -17,12 +17,16 @@
  *
  */
 
+var app = require('lib/app');
+
 global.ENV = {
     baseDir  : __dirname,
     frameDir : __dirname+'/lib/',
     projectDir : __dirname+'/project/',
     domain : '127.0.0.1'
 }
+
+console.log(app);
 
 /**
  * 启动函数

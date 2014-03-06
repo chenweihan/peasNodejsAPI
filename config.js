@@ -12,6 +12,9 @@
 /**
  * 根据域名环境自动判断是正式还是开发环境
  */
+
+//var app = exports = module.exports = {};
+
 exports.config = function () {
     var config = {}; 
         //develop
