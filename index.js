@@ -17,20 +17,19 @@
  *
  */
 
-var app = require('lib/app');
-
+/**
+ * 全局配置，需要严格控制全局使用
+ */
 global.ENV = {
     baseDir  : __dirname,
-    frameDir : __dirname+'/lib/',
+    libDir : __dirname+'/lib/',
     projectDir : __dirname+'/project/',
     domain : '127.0.0.1'
 }
 
-console.log(app);
-
 /**
  * 启动函数
-var peasNA = require('peasNA'),
-    app = peasNA();
-*/
+ */
+var app = require(global.ENV.libDir+'app.js');
+    app.init();
 
