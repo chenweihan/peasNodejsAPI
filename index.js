@@ -10,12 +10,15 @@
 
 
 /**
- * 配置全局参数  借鉴了express中的一些设计
+ * 配置全局参数
  * 支持跨域jsonp
  * 支持rest模式
  * 支持验证
  *
  */
+
+//引入日志模块 tracer
+
 
 /**
  * 全局配置，需要严格控制全局使用
@@ -27,9 +30,17 @@ global.ENV = {
     domain : '127.0.0.1'
 }
 
-/**
- * 启动函数
- */
-var app = require(global.ENV.libDir+'app.js');
-    app.init();
+//引入自定义异常类
+var exception = require(global.ENV.libDir+'exception.js').exception;
+
+try {
+    //nodejs 启动
+    require(global.ENV.libDir+'app.js').init();
+    //测试异常类接口
+    throw new exception({msg:'自定义抛出异常！',code:'404'});
+} catch (e) {
+    //记录日志
+    //logErrors(e); 
+    console.log('log',e,e.toString());
+}
 

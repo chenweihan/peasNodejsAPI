@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'node-inspector' ]
+2 info using npm@1.3.17
+3 info using node@v0.10.23
+4 verbose cache add [ 'node-inspector', null ]
+5 verbose cache add name=undefined spec="node-inspector" args=["node-inspector",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-inspector',
+6 verbose parsed url   path: 'node-inspector',
+6 verbose parsed url   href: 'node-inspector' }
+7 silly lockFile 4198ef9e-node-inspector node-inspector
+8 verbose lock node-inspector /home/cwh/.npm/4198ef9e-node-inspector.lock
+9 silly lockFile 4198ef9e-node-inspector node-inspector
+10 silly lockFile 4198ef9e-node-inspector node-inspector
+11 verbose addNamed [ 'node-inspector', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e68b88da-node-inspector node-inspector@
+14 verbose lock node-inspector@ /home/cwh/.npm/e68b88da-node-inspector.lock
+15 silly addNameRange { name: 'node-inspector', range: '*', hasData: false }
+16 verbose url raw node-inspector
+17 verbose url resolving [ 'https://registry.npmjs.org/', './node-inspector' ]
+18 verbose url resolved https://registry.npmjs.org/node-inspector
+19 info trying registry request attempt 1 at 09:58:47
+20 verbose etag "PV4KMADBLSQPBGGBODLXJA7J"
+21 http GET https://registry.npmjs.org/node-inspector
+22 http 304 https://registry.npmjs.org/node-inspector
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Wed, 12 Mar 2014 01:58:55 GMT',
+23 silly registry.get     server: 'Apache',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'last-modified': 'Wed, 12 Mar 2014 01:58:55 GMT',
+23 silly registry.get     'cache-control': 'max-age=1',
+23 silly registry.get     etag: '"PV4KMADBLSQPBGGBODLXJA7J"',
+23 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1394589535.365191936,VS0,VE362',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'content-length': '0',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 verbose etag node-inspector from cache
+25 silly addNameRange number 2 { name: 'node-inspector', range: '*', hasData: true }
+26 silly addNameRange versions [ 'node-inspector',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.1.5',
+26 silly addNameRange     '0.1.6',
+26 silly addNameRange     '0.1.7',
+26 silly addNameRange     '0.1.8',
+26 silly addNameRange     '0.1.9',
+26 silly addNameRange     '0.1.10',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.3.2',
+26 silly addNameRange     '0.3.3',
+26 silly addNameRange     '0.3.4',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.6.1',
+26 silly addNameRange     '0.6.2',
+26 silly addNameRange     '0.7.0-1',
+26 silly addNameRange     '0.2.0-beta1',
+26 silly addNameRange     '0.2.0-beta2',
+26 silly addNameRange     '0.2.0-beta3',
+26 silly addNameRange     '0.2.0-beta4',
+26 silly addNameRange     '0.3.0-preview1',
+26 silly addNameRange     '0.7.0-2',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '0.7.1' ] ]
+27 verbose addNamed [ 'node-inspector', '0.7.1' ]
+28 verbose addNamed [ '0.7.1', '0.7.1' ]
+29 silly lockFile 8749585e-node-inspector-0-7-1 node-inspector@0.7.1
+30 verbose lock node-inspector@0.7.1 /home/cwh/.npm/8749585e-node-inspector-0-7-1.lock
+31 silly lockFile fa7a8ddc-spector-node-inspector-0-7-1-tgz https://registry.npmjs.org/node-inspector/-/node-inspector-0.7.1.tgz
+32 verbose lock https://registry.npmjs.org/node-inspector/-/node-inspector-0.7.1.tgz /home/cwh/.npm/fa7a8ddc-spector-node-inspector-0-7-1-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-inspector/-/node-inspector-0.7.1.tgz',
+33 verbose addRemoteTarball   '1790de6d1e098bd980b9c8746bc5420ca65ecca1' ]
+34 silly lockFile fa7a8ddc-spector-node-inspector-0-7-1-tgz https://registry.npmjs.org/node-inspector/-/node-inspector-0.7.1.tgz
+35 silly lockFile fa7a8ddc-spector-node-inspector-0-7-1-tgz https://registry.npmjs.org/node-inspector/-/node-inspector-0.7.1.tgz
+36 silly lockFile 8749585e-node-inspector-0-7-1 node-inspector@0.7.1
+37 silly lockFile 8749585e-node-inspector-0-7-1 node-inspector@0.7.1
+38 silly lockFile e68b88da-node-inspector node-inspector@
+39 silly lockFile e68b88da-node-inspector node-inspector@
+40 error Error: EACCES, mkdir '/home/cwh/tmp/npm-3901-ALw5vGHf'
+40 error  { [Error: EACCES, mkdir '/home/cwh/tmp/npm-3901-ALw5vGHf']
+40 error   errno: 3,
+40 error   code: 'EACCES',
+40 error   path: '/home/cwh/tmp/npm-3901-ALw5vGHf' }
+41 error Please try running this command again as root/Administrator.
+42 error System Linux 2.6.32-49-generic-pae
+43 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "node-inspector"
+44 error cwd /usr/local/nginx/html/peasNodejsAPI
+45 error node -v v0.10.23
+46 error npm -v 1.3.17
+47 error path /home/cwh/tmp/npm-3901-ALw5vGHf
+48 error code EACCES
+49 error errno 3
+50 error stack Error: EACCES, mkdir '/home/cwh/tmp/npm-3901-ALw5vGHf'
+51 verbose exit [ 3, true ]
