@@ -13,11 +13,10 @@
  * 配置全局参数
  * 支持跨域jsonp
  * 支持rest模式
+ * 支持websock
  * 支持验证
  *
  */
-
-//引入日志模块 tracer
 
 
 /**
@@ -30,7 +29,9 @@ global.ENV = {
     domain : '127.0.0.1'
 }
 
-//引入自定义异常类
+
+//引入依赖模块
+var log = require(global.ENV.libDir + 'log.js').log;
 var exception = require(global.ENV.libDir+'exception.js').exception;
 
 try {
@@ -40,7 +41,7 @@ try {
     throw new exception({msg:'自定义抛出异常！',code:'404'});
 } catch (e) {
     //记录日志
-    //logErrors(e); 
-    console.log('log',e,e.toString());
+    log(e.toString(),3); 
+    console.log(e.toString());
 }
 

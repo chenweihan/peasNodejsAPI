@@ -1,0 +1,2 @@
+time:2014-3-17 13:53:40 level:3 msg:404,Not Found,自定义抛出异常！
+time:2014-3-17 13:53:42 level:3 msg:404,Not Found,自定义抛出异常！
