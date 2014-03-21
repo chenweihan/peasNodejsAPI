@@ -15,7 +15,7 @@
  * 支持rest模式
  * 支持websock
  * 支持验证
- *
+ * 错误输出到界面上
  */
 
 
@@ -38,10 +38,11 @@ try {
     //nodejs 启动
     require(global.ENV.libDir+'app.js').init();
     //测试异常类接口
-    throw new exception({msg:'自定义抛出异常！',code:'404'});
+    //throw new exception({msg:'测试自定义抛出异常！',code:'404'});
 } catch (e) {
     //记录日志
     log(e.toString(),3); 
+    //输出到控制台
     console.log(e.toString());
 }
 
