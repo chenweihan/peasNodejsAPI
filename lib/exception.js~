@@ -76,6 +76,8 @@ exports.exception = function(obj) {
           for (var i in obj) {
               arr.push(obj[i]);
           }
+
+          //log(arr.join(','),3); 
           return arr.join(',');
     };
 };

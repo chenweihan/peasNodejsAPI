@@ -1,0 +1,35 @@
+time:2014-3-24 21:17:47 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:33:36 level:3 msg:Error: Cannot find module '/usr/local/nginx/html/peasNodejsAPI/lib/router.js'
+time:2014-3-24 21:38:47 level:3 msg:ReferenceError: exception is not defined
+time:2014-3-24 21:39:43 level:3 msg:ReferenceError: exception is not defined
+time:2014-3-24 21:39:44 level:3 msg:Error: Cannot find module '/usr/local/nginx/html/peasNodejsAPI/lib/app.js'
+time:2014-3-24 21:41:3 level:3 msg:400,Bad Request,请求的url的没有r参数！
+time:2014-3-24 21:49:18 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:49:27 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:49:57 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:50:10 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:50:17 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:50:24 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:50:33 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:50:52 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 21:54:46 level:3 msg:ReferenceError: exception is not defined
+time:2014-3-24 21:54:58 level:3 msg:ReferenceError: exception is not defined
+time:2014-3-24 21:54:59 level:3 msg:Error: Cannot find module '/usr/local/nginx/html/peasNodejsAPI/lib/app.js'
+time:2014-3-24 21:55:36 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:5:43 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:5:44 level:3 msg:Error: Cannot find module '/usr/local/nginx/html/peasNodejsAPI/lib/app.js'
+time:2014-3-24 22:5:54 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:6:1 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:6:10 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:6:17 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:6:21 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:6:51 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:7:31 level:3 msg:InvalidMonthNo
+time:2014-3-24 22:7:59 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:8:7 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:9:13 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:9:34 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:9:38 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:10:4 level:3 msg:400,Bad Request,请求的url的没有111111111222参数！
+time:2014-3-24 22:10:27 level:3 msg:404,Not Found,测试自定义抛出异常！
+time:2014-3-24 22:10:51 level:3 msg:404,Not Found,测试自定义抛出异常！
