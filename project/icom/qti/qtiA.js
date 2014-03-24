@@ -8,8 +8,13 @@
  * @description : 
  */
 
-var qitA = {};
+var paramData = require(global.ENV.libDir+'param.js');
  
     exports.getQti =  function(req,res) {
-        console.log('api success!');
+          paramData.param(req,res,function(res,param){
+              console.log('api data',param);
+              res.writeHead(200, {'Content-Type': 'text/plain'});
+              //res.end('Hello World\n'+JSON.stringify(param));
+              res.end(JSON.stringify(param));
+          });
     }
