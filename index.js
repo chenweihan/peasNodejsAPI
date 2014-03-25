@@ -28,8 +28,7 @@ global.ENV = {
     projectDir : __dirname+'/project/',
     domain : '127.0.0.1',
     debugPrint : true, //打印错误到界面
-    debugLog : true,   //记录错误到日志
-    debugConsole : true //记录错误到控制台
+    debugLog : true    //记录错误到日志
 }
 //启动
 require(global.ENV.libDir+'app.js').init();

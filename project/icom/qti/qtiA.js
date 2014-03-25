@@ -8,9 +8,13 @@
  * @description : 
  */
 
-var paramData = require(global.ENV.libDir+'param.js');
+var paramData = require(global.ENV.libDir+'param.js'),
+    db = require(global.ENV.libDir+'db.js');
  
     exports.getQti =  function(req,res) {
+
+          db.mysqlDB();
+
           paramData.param(req,res,function(res,param){
               console.log('api data',param);
               res.writeHead(200, {'Content-Type': 'text/html;charset=UTF-8'});
