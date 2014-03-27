@@ -47,3 +47,6 @@ SYS 2014-3-27 11:27:9 TypeError: first argument must be a string or Buffer
 SYS 2014-3-27 11:27:9 TypeError: first argument must be a string or Buffer
 SYS 2014-3-27 11:27:9 TypeError: first argument must be a string or Buffer
 SYS 2014-3-27 11:30:2 TypeError: Object #<Object> has no method 'stringif'
+SYS 2014-3-27 16:24:51 ReferenceError: roter is not defined
+SYS 2014-3-27 16:25:7 TypeError: Object #<Object> has no method 'restRead'
+SYS 2014-3-27 16:25:8 TypeError: Object #<Object> has no method 'restRead'
