@@ -1,8 +1,9 @@
 <script src="http://127.0.0.1:8081/socket.io/socket.io.js"></script>
 <script>
-  var socket = io.connect('http://localhost:8081');
-      socket.on('news', function (data) {
+  //var socket = io.connect('http://127.0.0.1:8081');
+  var socket = io.connect('http://127.0.0.1:8081/chat');//命名空间chat
+      socket.on('server emit', function (data) {
         console.log(data);
-        socket.emit('my other event', { my: 'data' });
+        socket.emit('client emit', { my: 'data' });
       });
 </script>
